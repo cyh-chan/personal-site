@@ -18,8 +18,7 @@ const work = [
     url: "https://www.a-star.edu.sg/artc/RandD-themes/digital-supply-chain",
     startDate: "2024-11-01",
     endDate: "2025-08-31",
-    // summary: `Insert
-    // text.`,
+    // summary: 'Insert text.',
     highlights: [
       "Awarded the A*STAR Research Internship Award.",
       "Developed deep learning time series models to forecast demand for Fast-Moving Consumer Goods (FMCG), significantly improving the accuracy of an end-to-end inventory management system.",
@@ -33,8 +32,7 @@ const work = [
     url: "https://indeed.com/",
     startDate: "2021-09-01",
     endDate: "2021-12-31",
-    // summary: `Insert
-    // text.`,
+    // summary: 'Insert text.',
     highlights: [
       "Executed the successful migration of Japanese entity accounts, ensuring alignment with international accounting standards and local regulatory requirements.",
       "Managed and reconciled financial records for Japanese corporate entities, leveraging advanced accounting software to ensure data integrity and consistency.",
@@ -48,8 +46,7 @@ const work = [
     url: "https://www.mindef.gov.sg/web/portal/mindef/home",
     startDate: "2019-08-14",
     endDate: "2021-12-31",
-    // summary: `Insert
-    // text.`,
+    // summary: 'Insert text.',
     highlights: [
       "Oversaw unit financial accounts via a central government procurement system, providing strategic advice on operational and welfare purchases to optimize resource allocation.",
       "Enforced procurement policy compliance across all HQ sub-units through effective collaboration with finance stakeholders, strengthening adherence to regulations.",
@@ -64,8 +61,7 @@ const work = [
     url: "https://www.dbs.com.sg/index/default.page",
     startDate: "2018-09-01",
     endDate: "2019-05-31",
-    // summary: `Insert
-    // text`,
+    // summary: 'Insert text.',
     highlights: [
       "Validated Accredited Investor documentation to ensure full compliance with regulatory requirements and internal risk management policies.",
       "Partnered with Front Office relationship managers to execute service requests for Private Banking clients, ensuring timely and accurate resolution.",
