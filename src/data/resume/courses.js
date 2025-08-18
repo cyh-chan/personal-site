@@ -161,17 +161,17 @@ const courses = [
     link: 'https://www.suss.edu.sg/courses/detail/mth366',
     university: 'Singapore University of Social Sciences',
   },
-    {
+  {
     title: 'Network Optimisation and Modelling',
     number: 'MTH367',
     link: 'https://www.suss.edu.sg/courses/detail/mth367',
     university: 'Singapore University of Social Sciences',
   },
   {
-  title: 'Capstone Mathematics Project',
-  number: 'MTH499',
-  link: 'https://www.suss.edu.sg/courses/detail/mth499',
-  university: 'Singapore University of Social Sciences',
+    title: 'Capstone Mathematics Project',
+    number: 'MTH499',
+    link: 'https://www.suss.edu.sg/courses/detail/mth499',
+    university: 'Singapore University of Social Sciences',
   },
 ];
 
