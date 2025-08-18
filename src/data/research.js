@@ -1,4 +1,5 @@
 // Research Experience
+
 const data = [
   {
     title: 'Multivariate Time Series Forecasting for Equity Price Prediction',
@@ -21,7 +22,7 @@ const data = [
     subtitle: 'w/ Dr. Liu Ning',
     // url: '',
     startDate: '2024-11-01',
-    endDate: '2025-05-30',
+    endDate: '2025-08-31',
     // summary: `Insert
     // text.`,
   highlights: [
