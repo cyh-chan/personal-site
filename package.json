@@ -11,12 +11,12 @@
     "node": ">=16.x"
   },
   "scripts": {
-    "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
+    "analyze": "npm run build && source-map-explorer dist/**/*.js",
     "build": "vite build",
     "lint": "eslint \"**/*.js\"",
-    "predeploy": "npm run build",
-    "start": "react-scripts start",
-    "test": "npx jest"
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "jest"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
@@ -31,8 +31,7 @@
     "react-dom": "^18.2.0",
     "react-ga": "^3.3.1",
     "react-helmet-async": "^2.0.4",
-    "react-router-dom": "^6.22.3",
-    "react-scripts": "^5.0.1"
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.23.10",
@@ -48,10 +47,12 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-react": "^7.34.0",
+    "jest": "^29.7.0",
     "rimraf": "^5.0.5",
     "sass": "^1.71.1",
     "source-map-explorer": "^2.5.3",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "vite": "^7.1.2"
   },
   "browserslist": {
     "production": [
