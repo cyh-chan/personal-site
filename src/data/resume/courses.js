@@ -138,6 +138,12 @@ const courses = [
     university: 'Singapore University of Social Sciences',
   },
   {
+    title: 'Advanced Mathematical Optimisation',
+    number: 'MTH356',
+    link: 'https://www.suss.edu.sg/courses/detail/mth356',
+    university: 'Singapore University of Social Sciences',
+  },
+  {
     title: 'Applied Regression Analysis I',
     number: 'MTH357',
     link: 'https://www.suss.edu.sg/courses/detail/mth357',
@@ -153,6 +159,12 @@ const courses = [
     title: 'Fundamentals of Graph Theory',
     number: 'MTH366',
     link: 'https://www.suss.edu.sg/courses/detail/mth366',
+    university: 'Singapore University of Social Sciences',
+  },
+    {
+    title: 'Network Optimisation and Modelling',
+    number: 'MTH367',
+    link: 'https://www.suss.edu.sg/courses/detail/mth367',
     university: 'Singapore University of Social Sciences',
   },
   {
