@@ -1,5 +1,5 @@
-import React from "react";
-import useDarkMode from "../../hooks/useDarkMode";
+import React from 'react';
+import useDarkMode from '../../hooks/useDarkMode';
 
 const ThemeToggle = () => {
   const [theme, toggleTheme] = useDarkMode();
@@ -11,15 +11,15 @@ const ThemeToggle = () => {
       className="theme-toggle-btn"
       aria-label="Toggle Dark Mode"
       style={{
-        background: "none",
-        border: "none",
-        cursor: "pointer",
-        fontSize: "1.2rem",
-        padding: "0.5rem",
-        marginLeft: "15px",
+        background: 'none',
+        border: 'none',
+        cursor: 'pointer',
+        fontSize: '1.2rem',
+        padding: '0.5rem',
+        marginLeft: '15px',
       }}
     >
-      {theme === "light" ? "🌙" : "☀️"}
+      {theme === 'light' ? '🌙' : '☀️'}
     </button>
   );
 };
