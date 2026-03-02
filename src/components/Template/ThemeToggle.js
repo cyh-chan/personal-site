@@ -13,6 +13,8 @@ const ThemeToggle = () => {
       style={{
         background: 'none',
         border: 'none',
+        outline: 'none',
+        boxShadow: 'none',
         cursor: 'pointer',
         fontSize: '1.2rem',
         padding: '0',
