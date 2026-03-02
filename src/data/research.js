@@ -1,6 +1,21 @@
 // Research Experience
 const data = [
   {
+    title:
+      "Advanced Statistical Modeling for High-Dimensional Personality Data",
+    subtitle: "w/ Dr. Fan Zengyan",
+    // url: '',
+    startDate: "2025-10-01",
+    endDate: "", // Present
+    // summary: 'Insert text.',
+    highlights: [
+      "Engineered preprocessing pipelines to structure high-dimensional psychometric data for multivariate statistical and machine learning analysis.",
+      "Architected multi-stage frameworks integrating PCA, LASSO regularization, and clustering to identify latent structure and condition-specific interaction effects.",
+      "Investigated non-linear dimensionality reduction and hybrid modeling strategies to capture geometric and topological structure within feature space.",
+      "Benchmarked regularized linear models and ensemble tree-based methods (XGBoost), evaluating stability, sparsity, and predictive generalization.",
+    ],
+  },
+  {
     title: "Multivariate Time Series Forecasting for Equity Price Prediction",
     subtitle: "w/ Dr. Zhou Tianyi",
     // url: '',
