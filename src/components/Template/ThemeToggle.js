@@ -15,8 +15,9 @@ const ThemeToggle = () => {
         border: 'none',
         cursor: 'pointer',
         fontSize: '1.2rem',
-        padding: '0.5rem',
-        marginLeft: '15px',
+        padding: '0',
+        display: 'inline-flex',
+        alignItems: 'center',
       }}
     >
       {theme === 'light' ? '🌙' : '☀️'}
