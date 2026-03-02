@@ -105,7 +105,7 @@
 					    overflow: hidden;
 					    position: relative;
 					    text-indent: 4em;
-							margin-right: 1.5em;
+						margin-right: 1.5em;
 					}
 
 					> * {
@@ -136,6 +136,15 @@
 					}
 				}
 			}
+		}
+
+		.theme-toggle-btn {
+			height: inherit;
+			line-height: inherit;
+			display: inline-flex;
+			align-items: center;
+			padding: 0 1.5em;
+			border-left: solid 1px _palette(border);
 		}
 
 		@include breakpoint(medium) {
