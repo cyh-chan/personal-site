@@ -20,9 +20,9 @@ const work = [
     endDate: '2026-04-30',
     // summary: 'Insert text.',
     highlights: [
-      'Led weekly tutorials for approximately 30 undergraduate students in Statistical Analysis, covering probability theory, statistical inference, and linear regression.',
-      'Developed a structured revision framework synthesizing core theoretical principles to reinforce formal statistical reasoning.',
-      'Emphasized rigorous model formulation and assumption diagnostics, cultivating disciplined quantitative problem-solving practices.',
+      'Facilitated technical tutorials in Statistical Analysis covering probability theory, asymptotic inference, and classical linear regression.',
+      'Formulated structural review frameworks to ground undergraduate cohorts in deductive mathematical reasoning and problem-solving.',
+      'Guided student execution of formal model diagnostics, emphasizing verification of Gauss-Markov assumptions and residual structures.',
     ],
   },
   {
@@ -33,9 +33,10 @@ const work = [
     endDate: '', // Present
     // summary: 'Insert text.',
     highlights: [
-      'Collaborated on institutional research initiatives, overseeing data preprocessing, validation, and analytical implementation.',
-      'Maintained reproducible data integrity and experimental protocols for large-scale psychological datasets.',
-      'Synthesized statistical findings into formal technical documentation for principal investigators and academic review.',
+      'Formulated statistical inference frameworks for experimental psychometric data to quantify treatment effects on latent creativity constructs.',
+      'Developing stochastic models for financial time-series data to capture non-stationarity, temporal dependencies, and volatility dynamics.',
+      'Applying survival analysis and classification techniques to clinical datasets to isolate features driving patient non-attendance.',
+      'Engineered reproducible data pipelines for high-dimensional institutional datasets to ensure mathematical integrity for academic review.',
     ],
   },
   {
@@ -46,9 +47,9 @@ const work = [
     endDate: '2025-08-31',
     // summary: 'Insert text.',
     highlights: [
-      'Developed deep learning time series models to forecast demand for Fast-Moving Consumer Goods (FMCG), significantly improving the accuracy of an end-to-end inventory management system.',
-      'Engineered and deployed a reusable internal library for Explainable AI (XAI), integrating SHAP analysis to interpret model predictions and enhance transparency in supply chain decision-making.',
-      'Contributed to the Data-Driven Framework for Enhancing Supply Chain Resilience project by reproducing and refining the model architecture from a key research paper on deep learning for inventory management.',
+      'Architected deep learning models for multi-horizon time-series forecasting under non-stationary demand conditions.',
+      'Implemented a SHAP-based Explainable AI (XAI) framework to quantify localized feature attributions and map non-linear interactions.',
+      'Evaluated contemporary deep learning baselines, optimizing hyperparameter spaces to enhance empirical robustness and performance bounds.',
     ],
   },
   {
@@ -59,10 +60,8 @@ const work = [
     endDate: '2021-12-31',
     // summary: 'Insert text.',
     highlights: [
-      'Executed the successful migration of Japanese entity accounts, ensuring alignment with international accounting standards and local regulatory requirements.',
-      'Managed and reconciled financial records for Japanese corporate entities, leveraging advanced accounting software to ensure data integrity and consistency.',
-      'Processed cross-departmental financial transactions using Salesforce, collaborating with internal stakeholders to improve processing time and accuracy.',
-      'Designed and implemented interim communication workflows to resolve process bottlenecks, significantly enhancing team efficiency and productivity.',
+      'Audited cross-border financial data systems to ensure high-fidelity data migration and compliance with international reporting frameworks.',
+      'Optimized workflows within Salesforce environments by implementing data validation protocols to minimize transactional errors.',
     ],
   },
   {
@@ -73,11 +72,9 @@ const work = [
     endDate: '2021-12-31',
     // summary: 'Insert text.',
     highlights: [
-      'Oversaw unit financial accounts via a central government procurement system, providing strategic advice on operational and welfare purchases to optimize resource allocation.',
-      'Enforced procurement policy compliance across all HQ sub-units through effective collaboration with finance stakeholders, strengthening adherence to regulations.',
-      'Conducted bi-annual internal audits and Risk Internal Control Evaluations, delivering comprehensive reports and analyses to unit leadership for governance improvements.',
-      'Proposed and implemented enhancements to the unit\'s finance governance framework, measurably improving system discipline and operational controls.',
-      'Administered the COVID-19 Taskforce budget with finance clerks and officers, ensuring precise and timely processing of all financial transactions during a critical operational period.',
+      'Managed operational budgets and resource allocations under central government regulatory frameworks.',
+      'Executed internal audits and risk assessments, applying structured methodologies to report compliance metrics to leadership.',
+      'Administered large-scale operational budgets during COVID-19 deployments, maintaining accuracy under highly volatile conditions.',
     ],
   },
   {
@@ -88,10 +85,8 @@ const work = [
     endDate: '2019-05-31',
     // summary: 'Insert text.',
     highlights: [
-      'Validated Accredited Investor documentation to ensure full compliance with regulatory requirements and internal risk management policies.',
-      'Partnered with Front Office relationship managers to execute service requests for Private Banking clients, ensuring timely and accurate resolution.',
-      'Documented and maintained transaction records for high-net-worth clients, ensuring the integrity and reliability of all financial documentation.',
-      'Analyzed operational data to identify system enhancement opportunities, presenting actionable solutions to the Team Lead to improve process efficiency.',
+      'Conducted quantitative operational analyses, leveraging process data to isolate system inefficiencies and formulate optimization strategies.',
+      'Enforced compliance protocols through the systematic validation of Accredited Investor documentation and data control frameworks.',
     ],
   },
 ];

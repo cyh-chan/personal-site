@@ -1,18 +1,43 @@
 // Research Experience
 const data = [
   {
-    title:
-      'Advanced Statistical Modeling for High-Dimensional Personality Data',
+    title: 'Predictive Analytics & Financial Time-Series Modeling',
     subtitle: 'w/ Dr. Fan Zengyan',
     // url: '',
-    startDate: '2025-10-01',
+    startDate: '2026-06-01',
     endDate: '', // Present
     // summary: 'Insert text.',
     highlights: [
-      'Engineered preprocessing pipelines to structure high-dimensional psychometric data for multivariate statistical and machine learning analysis.',
-      'Architected multi-stage frameworks integrating PCA, LASSO regularization, and clustering to identify latent structure and condition-specific interaction effects.',
-      'Investigated non-linear dimensionality reduction and hybrid modeling strategies to capture geometric and topological structure within feature space.',
-      'Benchmarked regularized linear models and ensemble tree-based methods (XGBoost), evaluating stability, sparsity, and predictive generalization.',
+      'Investigating non-stationary asset dynamics and temporal volatility dependencies within high-frequency financial time-series datasets.',
+      'Deriving stochastic predictive architectures to model underlying market mechanisms, bypassing the limitations of traditional stationary assumptions.',
+      'Engineering data ingestion pipelines to process and structure multi-asset institutional streaming data from Bloomberg terminals for rigorous downstream quantitative estimation.',
+    ],
+  },
+  {
+    title: 'Stratified Non-Attendance Modeling in Clinical Datasets',
+    subtitle: 'w/ Dr. Fan Zengyan',
+    // url: '',
+    startDate: '2026-06-01',
+    endDate: '', // Present
+    // summary: 'Insert text.',
+    highlights: [
+      'Establishing a quantitative framework to isolate the demographic and behavioral covariates driving stratified patient non-attendance in localized clinical settings.',
+      'Formulating survival analysis and categorical data models to evaluate time-to-event dynamics and map high-variance predictors of non-compliance.',
+      'Deriving statistical diagnostics to adjust for real-world irregularities, applying heteroscedasticity-consistent estimators and non-parametric variance partitioning.',
+    ],
+  },
+  {
+    title: 'Causal Machine Learning for Treatment Heterogeneity Modeling',
+    subtitle: 'w/ Dr. Fan Zengyan',
+    // url: '',
+    startDate: '2025-10-01',
+    endDate: '2026-06-30',
+    // summary: 'Insert text.',
+    highlights: [
+      'Investigated conditional treatment heterogeneity across high-dimensional feature spaces to derive welfare-maximizing assignment rules.',
+      'Architected a tripartite causal machine learning framework, benchmarking Meta-Learners against Causal Forest Double Machine Learning to isolate individualized treatment effect surfaces.',
+      'Enforced a rigorous identification protocol utilizing cross-validated propensity scores and deterministic boundary trimming to satisfy overlap assumptions and bound regularization bias.',
+      'Synthesized localized individualized treatment effect vectors into an unsupervised clustering matrix to extract latent responder archetypes, validating results via an Optimal Policy Tree algorithm.',
     ],
   },
   {
@@ -23,11 +48,10 @@ const data = [
     endDate: '2025-11-30',
     // summary: 'Insert text.',
     highlights: [
-      'Designed and executed a three-tiered forecasting framework to predict multi-horizon stock returns (1, 5, 20-day) for a diverse portfolio of NYSE-listed equities representing various market sectors.',
-      'Benchmarked a suite of classical (ARIMA), deep learning (LSTM), and modern Transformer-based (PatchTST, N-HiTS) models in both univariate and multivariate settings to evaluate the impact of exogenous features.',
-      'Engineered a robust feature selection pipeline using an ensemble of XGBoost-based methods (Recursive Feature Elimination, Permutation Importance) and feature stability analysis to identify the most predictive technical indicators.',
-      'Implemented Explainable AI (XAI) techniques using SHAP (SHapley Additive exPlanations) to interpret the complex multivariate models, providing clear insights into how specific market indicators drive predictions.',
-      'Validated model performance using a rigorous walk-forward backtesting framework over a one-year period, assessing aggregated metrics to ensure sector-agnostic robustness.',
+      'Evaluated the out-of-sample empirical stability of multi-horizon (1-, 5-, 20-day) return forecasting frameworks across NYSE-listed equities under non-linear asset dynamics.',
+      'Conducted systematic comparative evaluations of classical linear estimators against sequential deep learning and contemporary self-attention architectures.',
+      'Isolated economically meaningful technical signals via ensemble-based XGBoost feature selection pipelines, utilizing Recursive Feature Elimination and permutation importance.',
+      'Validated the predictive superiority of attention mechanisms in capturing long-range dependencies through rigorous walk-forward backtesting regimes.',
     ],
   },
   {
@@ -38,11 +62,10 @@ const data = [
     endDate: '2025-08-31',
     // summary: 'Insert text.',
     highlights: [
-      'Engineered and benchmarked two end-to-end (E2E) deep learning models, a Deep Convolutional Neural Network (DCNN) and a Multi-Quantile Recurrent Neural Network (MQRNN), for inventory optimization.',
-      'Demonstrated superior performance of the E2E models, which outperformed the traditional Predict-Then-Optimize (PTO) framework and heuristic policies (Fixed-Order-Quantity, Order-Up-To) in total cost reduction.',
-      'Developed a synthetic data generator to simulate realistic inventory dynamics with stochastic demand and lead times across multiple SKUs and stores, creating a robust environment for model training and evaluation.',
-      'Implemented a DCNN with dilated temporal convolutions to capture long-range dependencies and an MQRNN to generate probabilistic demand forecasts, enhancing decision-making under uncertainty.',
-      'Authored a comprehensive 39-page final technical report detailing the research methodology, model architectures, and quantitative results, and delivered monthly progress presentations to the research team.',
+      'Investigated the theoretical and empirical performance boundaries of deep learning optimization architectures for stochastic inventory control against classical Predict-Then-Optimize paradigms.',
+      'Synthesized dilated temporal Convolutional Neural Networks and Multi-Quantile Recurrent Neural Networks to model probabilistic, non-stationary demand distributions.',
+      'Captured long-range temporal dependencies to optimize direct cost-functions in high-variance multi-SKU simulation environments.',
+      'Demonstrated significant structural cost reductions and enhanced system resilience relative to traditional heuristic benchmarks.',
     ],
   },
 ];
