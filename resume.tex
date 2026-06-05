@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -20,6 +20,7 @@
 \usepackage{tabularx}
 \usepackage{fontawesome5}
 \usepackage[sfdefault]{roboto}
+\usepackage{raleway}
 \input{glyphtounicode}
 
 
@@ -110,7 +111,8 @@
 %----------HEADING----------
 
 \begin{center}
-    \textbf{\Huge \scshape Chan Yi Heng} \\ \vspace{1pt}
+    {\fontfamily{Raleway-TLF}\selectfont \huge \textbf{CHAN YI HENG}} \\ \vspace{1pt}
+    % \rmfamily \textbf{\Huge \scshape Chan Yi Heng} \\ \vspace{1pt}
     \small {\faPhoneSquare} +65 8862 0913 $|$
     \href{mailto:x@x.com}{{\faEnvelope} \underline{c@chanyh.com}} $|$ 
     \href {https://chanyh.com}{{\faGlobeAsia} \underline{chanyh.com}} $|$
@@ -123,6 +125,9 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
+      {National University of Singapore}{Singapore, SG}
+      {Master of Science in Statistics}{Aug 2026 -- Expected 2027}
+    \resumeSubheading
       {Singapore University of Social Sciences}{Singapore, SG}
       {Bachelor of Science (Honours) in Mathematics}{Jan 2022 -- Dec 2025}
     \resumeSubheading
@@ -133,28 +138,63 @@
 
 %-----------EXPERIENCE-----------
 \section{Experience}
-  \resumeSubHeadingListStart
+\resumeSubHeadingListStart
 
-    \resumeSubheading
-      {Research Intern}{Nov 2024 -- Aug 2025}
-      {A*STAR, Advanced Remanufacturing and Technology Centre, Digital Supply Chain}{Singapore, SG}
-        \resumeItemListStart
-        \resumeItem{Awarded the A*STAR Research Internship Award.}
-        \resumeItem{Developed deep learning time series models to forecast demand for Fast-Moving Consumer Goods (FMCG), significantly improving the accuracy of an end-to-end inventory management system.}
-        \resumeItem{Engineered and deployed a reusable internal library for Explainable AI (XAI), integrating SHAP analysis to interpret model predictions and enhance transparency in supply chain decision-making.}
-        \resumeItem{Contributed to the "Data-Driven Framework for Enhancing Supply Chain Resilience" project by reproducing and refining the model architecture from a key research paper on deep learning for inventory management.}
-    \resumeItemListEnd
+\resumeSubheading
+{Teaching Assistant}{Jan 2026 -- Apr 2026}
+{Singapore University of Social Sciences}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Facilitated technical tutorials in Statistical Analysis covering probability theory, asymptotic inference, and classical linear regression.}
+    \resumeItem{Formulated structural review frameworks to ground undergraduate cohorts in deductive mathematical reasoning and problem-solving.}
+    \resumeItem{Guided student execution of formal model diagnostics, emphasizing verification of Gauss-Markov assumptions and residual structures.}
+\resumeItemListEnd
 
-    \resumeSubheading
-      {Finance Operations Assistant}{Sep 2021 -- Dec 2021}
-      {Indeed}{Singapore, SG}
-        \resumeItemListStart
-        \resumeItem{Executed the successful migration of Japanese entity accounts, ensuring alignment with international accounting standards and local regulatory requirements.}
-        \resumeItem{Managed and reconciled financial records for Japanese corporate entities, leveraging advanced accounting software to ensure data integrity and consistency.}
-        \resumeItem{Processed cross-departmental financial transactions using Salesforce, collaborating with internal stakeholders to improve processing time and accuracy.}
-        \resumeItem{Designed and implemented interim communication workflows to resolve process bottlenecks, significantly enhancing team efficiency and productivity.}
-    \resumeItemListEnd
-      
+\resumeSubheading
+{Research Assistant}{Oct 2025 -- Present}
+{Singapore University of Social Sciences, University Research Office}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Formulated statistical inference frameworks for experimental psychometric data to quantify treatment effects on latent creativity constructs.}
+    \resumeItem{Developing stochastic models for financial time-series data to capture non-stationarity, temporal dependencies, and volatility dynamics.}
+    \resumeItem{Applying survival analysis and classification techniques to clinical datasets to isolate features driving patient non-attendance.}
+    \resumeItem{Engineered reproducible data pipelines for high-dimensional institutional datasets to ensure mathematical integrity for academic review.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Research Intern}{Nov 2024 -- Aug 2025}
+{A*STAR, Advanced Remanufacturing and Technology Centre}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Architected deep learning models for multi-horizon time-series forecasting under non-stationary demand conditions.}
+    \resumeItem{Implemented a SHAP-based Explainable AI (XAI) framework to quantify localized feature attributions and map non-linear interactions.}
+    \resumeItem{Evaluated contemporary deep learning baselines, optimizing hyperparameter spaces to enhance empirical robustness and performance bounds.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Finance Operations Analyst}{Sep 2021 -- Dec 2021}
+{Indeed}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Audited cross-border financial data systems to ensure high-fidelity data migration and compliance with international reporting frameworks.}
+    \resumeItem{Optimized workflows within Salesforce environments by implementing data validation protocols to minimize transactional errors.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Finance Specialist}{Aug 2019 -- Dec 2021}
+{Singapore Armed Forces}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Managed operational budgets and resource allocations under central government regulatory frameworks.}
+    \resumeItem{Executed internal audits and risk assessments, applying structured methodologies to report compliance metrics to leadership.}
+    \resumeItem{Administered large-scale operational budgets during COVID-19 deployments, maintaining accuracy under highly volatile conditions.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Wealth Management Intern}{Sep 2018 -- May 2019}
+{DBS Bank}{Singapore, SG}
+\resumeItemListStart
+    \resumeItem{Conducted quantitative operational analyses, leveraging process data to isolate system inefficiencies and formulate optimization strategies.}
+    \resumeItem{Enforced compliance protocols through the systematic validation of Accredited Investor documentation and data control frameworks.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
 % -----------Multiple Positions Heading-----------
 %    \resumeSubSubheading
 %     {Software Engineer I}{Oct 2014 - Sep 2016}
@@ -165,51 +205,55 @@
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
 
-  \resumeSubheading
-    {Unit Finance Specialist}{Aug 2019 -- Dec 2021}
-    {Singapore Armed Forces}{Singapore, SG}
-    \resumeItemListStart
-      \resumeItem{Oversaw unit financial accounts via a central government procurement system, providing strategic advice on operational and welfare purchases to optimize resource allocation.}
-      \resumeItem{Enforced procurement policy compliance across all HQ sub-units through effective collaboration with finance stakeholders, strengthening adherence to regulations.}
-      \resumeItem{Conducted bi-annual internal audits and Risk Internal Control Evaluations, delivering comprehensive reports and analyses to unit leadership for governance improvements.}
-      \resumeItem{Proposed and implemented enhancements to the unit's finance governance framework, measurably improving system discipline and operational controls.}
-      \resumeItem{Administered the COVID-19 Taskforce budget with finance clerks and officers, ensuring precise and timely processing of all financial transactions during a critical operational period.}
-  \resumeItemListEnd
-
-  \resumeSubheading
-    {Wealth Management Intern}{Sep 2018 -- May 2019}
-    {DBS Bank}{Singapore, SG}
-    \resumeItemListStart
-      \resumeItem{Validated Accredited Investor documentation to ensure full compliance with regulatory requirements and internal risk management policies.}
-      \resumeItem{Partnered with Front Office relationship managers to execute service requests for Private Banking clients, ensuring timely and accurate resolution.}
-      \resumeItem{Documented and maintained transaction records for high-net-worth clients, ensuring the integrity and reliability of all financial documentation.}
-      \resumeItem{Analyzed operational data to identify system enhancement opportunities, presenting actionable solutions to the Team Lead to improve process efficiency.}
-    \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-
-
 %-----------Research & PROJECTS-----------
 \section{Research}
-    \resumeSubHeadingListStart
-    \resumeProjectHeading
-    {\textbf{Multivariate Time Series Forecasting for Equity Price Prediction} $|$ \emph{Dr. Zhou Tianyi}}{Jan 2025 -- Nov 2025}
-    \resumeItemListStart
-    \resumeItem{Designed and executed a three-tiered forecasting framework to predict multi-horizon stock returns (1, 5, 20-day) for a diverse portfolio of NYSE-listed equities representing various market sectors.}
-    \resumeItem{Benchmarked a suite of classical (ARIMA), deep learning (LSTM), and modern Transformer-based (PatchTST, N-HiTS) models in both univariate and multivariate settings to evaluate the impact of exogenous features.}
-    \resumeItem{Engineered a robust feature selection pipeline using an ensemble of XGBoost-based methods (Recursive Feature Elimination, Permutation Importance) and feature stability analysis to identify the most predictive technical indicators.}
-    \resumeItem{Implemented Explainable AI (XAI) techniques using SHAP (SHapley Additive exPlanations) to interpret the complex multivariate models, providing clear insights into how specific market indicators drive predictions.}
-    \resumeItem{Validated model performance using a rigorous walk-forward backtesting framework over a one-year period, assessing aggregated metrics to ensure sector-agnostic robustness.}
-    \resumeItemListEnd
-    \resumeProjectHeading
-    {\textbf{Data-Driven Framework for Enhancing Supply Chain Resilience} $|$ \emph{Dr. Liu Ning}}{Nov 2024 -- Aug 2025}
-      \resumeItemListStart
-      \resumeItem{Engineered and benchmarked two end-to-end (E2E) deep learning models, a Deep Convolutional Neural Network (DCNN) and a Multi-Quantile Recurrent Neural Network (MQRNN), for inventory optimization.}
-      \resumeItem{Demonstrated superior performance of the E2E models, which outperformed the traditional Predict-Then-Optimize (PTO) framework and heuristic policies (Fixed-Order-Quantity, Order-Up-To) in total cost reduction.}
-      \resumeItem{Developed a synthetic data generator to simulate realistic inventory dynamics with stochastic demand and lead times across multiple SKUs and stores, creating a robust environment for model training and evaluation.}
-      \resumeItem{Implemented a DCNN with dilated temporal convolutions to capture long-range dependencies and an MQRNN to generate probabilistic demand forecasts, enhancing decision-making under uncertainty.}
-      \resumeItem{Authored a comprehensive 39-page final technical report detailing the research methodology, model architectures, and quantitative results, and delivered monthly progress presentations to the research team.}
-    \resumeItemListEnd
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Predictive Analytics \& Financial Time-Series Modeling} $|$ \emph{Dr. Fan Zengyan}}{Jun 2026 -- Present}
+\resumeItemListStart
+    \resumeItem{Investigating non-stationary asset dynamics and temporal volatility dependencies within high-frequency financial time-series datasets.}
+    \resumeItem{Deriving stochastic predictive architectures to model underlying market mechanisms, bypassing the limitations of traditional stationary assumptions.}
+    \resumeItem{Engineering data ingestion pipelines to process and structure multi-asset institutional streaming data from Bloomberg terminals for rigorous downstream quantitative estimation.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Stratified Non-Attendance Modeling in Clinical Datasets} $|$ \emph{Dr. Fan Zengyan}}{Jun 2026 -- Present}
+\resumeItemListStart
+    \resumeItem{Establishing a quantitative framework to isolate the demographic and behavioral covariates driving stratified patient non-attendance in localized clinical settings.}
+    \resumeItem{Formulating survival analysis and categorical data models to evaluate time-to-event dynamics and map high-variance predictors of non-compliance.}
+    \resumeItem{Deriving statistical diagnostics to adjust for real-world irregularities, applying heteroscedasticity-consistent estimators and non-parametric variance partitioning.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Causal Machine Learning for Treatment Heterogeneity Modeling} $|$ \emph{Dr. Fan Zengyan}}{Oct 2025 -- Jun 2026}
+\resumeItemListStart
+    \resumeItem{Investigated conditional treatment heterogeneity across high-dimensional feature spaces to derive welfare-maximizing assignment rules.}
+    \resumeItem{Architected a tripartite causal machine learning framework, benchmarking Meta-Learners against Causal Forest Double Machine Learning to isolate individualized treatment effect surfaces.}
+    \resumeItem{Enforced a rigorous identification protocol utilizing cross-validated propensity scores and deterministic boundary trimming to satisfy overlap assumptions and bound regularization bias.}
+    \resumeItem{Synthesized localized individualized treatment effect vectors into an unsupervised clustering matrix to extract latent responder archetypes, validating results via an Optimal Policy Tree algorithm.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Multivariate Time Series Forecasting for Equity Price Prediction} $|$ \emph{Dr. Zhou Tianyi}}{Jan 2025 -- Nov 2025}
+\resumeItemListStart
+    \resumeItem{Evaluated the out-of-sample empirical stability of multi-horizon (1-, 5-, 20-day) return forecasting frameworks across NYSE-listed equities under non-linear asset dynamics.}
+    \resumeItem{Conducted systematic comparative evaluations of classical linear estimators against sequential deep learning and contemporary self-attention architectures.}
+    \resumeItem{Isolated economically meaningful technical signals via ensemble-based XGBoost feature selection pipelines, utilizing Recursive Feature Elimination and permutation importance.}
+    \resumeItem{Validated the predictive superiority of attention mechanisms in capturing long-range dependencies through rigorous walk-forward backtesting regimes.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Data-Driven Framework for Enhancing Supply Chain Resilience} $|$ \emph{Dr. Liu Ning}}{Nov 2024 -- Aug 2025}
+\resumeItemListStart
+    \resumeItem{Investigated the theoretical and empirical performance boundaries of deep learning optimization architectures for stochastic inventory control against classical Predict-Then-Optimize paradigms.}
+    \resumeItem{Synthesized dilated temporal Convolutional Neural Networks and Multi-Quantile Recurrent Neural Networks to model probabilistic, non-stationary demand distributions.}
+    \resumeItem{Captured long-range temporal dependencies to optimize direct cost-functions in high-variance multi-SKU simulation environments.}
+    \resumeItem{Demonstrated significant structural cost reductions and enhanced system resilience relative to traditional heuristic benchmarks.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
       % {\textbf{Personal Website} $|$ \emph{HTML/CSS, JavaScript}}{May 2024 -- Jun 2024}
       % \resumeItemListStart
       %   \resumeItem{Designed and developed a personal website using HTML, CSS, and JavaScript, showcasing strong front-end development skills}
@@ -237,8 +281,6 @@
       %       \resumeItem{Presented project findings and prototypes to OCBC executives, providing actionable insights and recommendations for future digital banking initiatives}
       %       \resumeItem{Received positive feedback from OCBC stakeholders, highlighting the potential impact of the proposed digitalization strategies on customer satisfaction and retention}
       %     \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
 
 
 %
@@ -246,12 +288,9 @@
 \section{Competency}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Programming Languages \& Databases}{: Python, SQL, JavaScript, HTML/CSS, R} \\
-     \textbf{Typesetting \& Presentation Tools}{: LaTeX, Microsoft Office, Google Workspace} \\
-     % \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, VSCode, Visual Studio, PyCharm} \\
-     % \textbf{Libraries}{: pandas, NumPy, Matplotlib} \\
-     \textbf{Language Proficiency}{: English (Fluent), Chinese, Mandarin (Fluent)}
+     \textbf{Languages \& Scripting}{: Python, R, SQL, LaTeX} \\
+     \textbf{Development \& Tools}{: Git, VS Code, Visual Studio, Jupyter} \\
+     \textbf{Spoken Languages}{: English (Fluent), Mandarin (Native)}
     }}
  \end{itemize}
 
