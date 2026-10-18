@@ -73,7 +73,7 @@ const work = [
   {
     name: 'Singapore Armed Forces',
     position: 'Finance Specialist',
-    url: 'https://www.mindef.gov.sg/web/portal/mindef/home',
+    url: 'https://www.mindef.gov.sg/',
     startDate: '2019-08-14',
     endDate: '2021-08-31',
     highlights: [
