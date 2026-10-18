@@ -1,4 +1,3 @@
-
 /**
  * @typedef {Object} Position
  * Conforms to https://jsonresume.org/schema/

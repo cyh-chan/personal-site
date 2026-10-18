@@ -1,5 +1,4 @@
-
- // Research Experience
+// Research Experience
 const data = [
   {
     title: 'Regime-Aware Statistical Learning for Financial Markets',
