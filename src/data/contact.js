@@ -25,7 +25,7 @@ const data = [
   //   icon: faInstagram,
   // },
   {
-    link: 'https://www.linkedin.com/in/chanyiheng',
+    link: 'https://www.linkedin.com/in/cyh-chan',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },

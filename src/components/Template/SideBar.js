@@ -19,11 +19,17 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m YH. I am a <a href="https://suss.edu.sg/">Mathematics</a> graduate from Singapore with a keen interest in statistical machine learning, particularly in scaling algorithms for higher-dimensional statistical inference processes.
+      <p>
+        Hi, I&apos;m YH. My research interests lie at the intersection of statistical
+        inference, machine learning, and computational statistics, with a particular
+        focus on developing reliable, interpretable, and scalable methodologies
+        for high-dimensional and evolving data.
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume')
+            ? <Link to="/resume" className="button">Learn More</Link>
+            : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul>
     </section>
